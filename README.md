@@ -85,10 +85,12 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 
 <div align="center">
 
-<!-- theme=transparent keeps these readable in both light and dark, matching the banner accent -->
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=WillyBilly06&show_icons=true&hide_border=true&theme=transparent&title_color=36BCF7&icon_color=36BCF7&hide=contribs" alt="GitHub stats"/>
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WillyBilly06&layout=compact&hide_border=true&theme=transparent&title_color=36BCF7&langs_count=8" alt="Top languages"/>
+<!-- github-profile-summary-cards is a self-hosted-per-request generator that stays reliable
+     where the shared github-readme-stats instance gets rate-limited. tokyonight ≈ the cyan banner. -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WillyBilly06&theme=tokyonight" width="100%" alt="Profile summary"/>
+
+<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WillyBilly06&theme=tokyonight" alt="Repos per language"/>
+<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WillyBilly06&theme=tokyonight" alt="Most commit language"/>
 
 <br/><br/>
 
