@@ -14,10 +14,15 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 
 - 🔭 Currently building **multi-codec Bluetooth audio firmware** for the ESP32 family — LDAC, aptX/HD/LL, LHDC V5, AAC, Opus, LC3plus, and more
 - 🎛️ Deep into **real-time DSP**: equalizers, bass boost, level meters, clock sync, and packet-loss concealment
-- 🔬 **Reverse-engineered the LHDC V5 codec** to build a working decoder for ESP32 A2DP — digging through binaries to make hi-res audio run on a microcontroller
 - 📱 I also build **Android apps in Kotlin and Flutter** to control my embedded projects over BLE — EQ controls, codec selection, OTA updates, and live audio visualization
 - 🌱 Always learning more about **ESP-IDF, FreeRTOS, and low-latency wireless audio**
 - ⚡ Fun fact: my DIY Bluetooth speaker stack runs hi-res codecs entirely on internal SRAM
+
+<br/>
+
+## 🔬 Reverse Engineering Spotlight
+
+> **[LHDC-V5-Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)** — I reverse-engineered the proprietary **LHDC V5** hi-res Bluetooth codec and turned it into a working decoder that runs on an ESP32, integrated straight into the A2DP audio pipeline. Digging through binaries so a microcontroller can play hi-res audio. 🎧
 
 <br/>
 
@@ -65,6 +70,22 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 <img src="https://streak-stats.demolab.com?user=WillyBilly06&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
 
 </div>
+
+<br/>
+
+## ⚡ Recently Working On
+
+<div align="center">
+
+<!--RECENT_REPO:START-->
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/LHDC-V5-Decoder"><b>LHDC-V5-Decoder</b></a> on <b>2026-07-22</b><br/>
+<i>LHDC V5 Decoder For ESP32's A2DP Integration</i><br/>
+<code>C</code>
+<!--RECENT_REPO:END-->
+
+</div>
+
+<sub><i>This section updates itself automatically via GitHub Actions.</i></sub>
 
 <br/>
 
