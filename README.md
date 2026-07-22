@@ -14,7 +14,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 
 - 🔭 Currently building **multi-codec Bluetooth audio firmware** for the ESP32 family — LDAC, aptX/HD/LL, LHDC V5, AAC, Opus, LC3plus, and more
 - 🎛️ Deep into **real-time DSP**: equalizers, bass boost, level meters, clock sync, and packet-loss concealment
-- 📱 I also write **Android apps in Kotlin** to control my embedded projects over BLE — EQ controls, codec selection, OTA updates, and live audio visualization
+- 📱 I also build **Android apps in Kotlin and Flutter** to control my embedded projects over BLE — EQ controls, codec selection, OTA updates, and live audio visualization
 - 🌱 Always learning more about **ESP-IDF, FreeRTOS, and low-latency wireless audio**
 - ⚡ Fun fact: my DIY Bluetooth speaker stack runs hi-res codecs entirely on internal SRAM
 
@@ -29,6 +29,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 **Embedded & Platforms**
 
@@ -37,6 +38,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-4DA45C?style=for-the-badge&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 **Domains & Tools**
 
