@@ -14,6 +14,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 
 - 🔭 Currently building **multi-codec Bluetooth audio firmware** for the ESP32 family — LDAC, aptX/HD/LL, LHDC V5, AAC, Opus, LC3plus, and more
 - 🎛️ Deep into **real-time DSP**: equalizers, bass boost, level meters, clock sync, and packet-loss concealment
+- 🔬 **Reverse-engineered the LHDC V5 codec** to build a working decoder for ESP32 A2DP — digging through binaries to make hi-res audio run on a microcontroller
 - 📱 I also build **Android apps in Kotlin and Flutter** to control my embedded projects over BLE — EQ controls, codec selection, OTA updates, and live audio visualization
 - 🌱 Always learning more about **ESP-IDF, FreeRTOS, and low-latency wireless audio**
 - ⚡ Fun fact: my DIY Bluetooth speaker stack runs hi-res codecs entirely on internal SRAM
@@ -74,7 +75,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 | 🔊 **[esp32-a2dp-sink-with-LDAC-APTX-AAC](https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC/stargazers) | ESP32 A2DP Bluetooth audio sink with BLE GATT, DSP, level meters, and LDAC support | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
 | 🎵 **[ESP32-A2DP-SINK-WITH-CODECS-UPDATED](https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED/stargazers) | ESP32 Bluetooth A2DP sink with LDAC, aptX, aptX-HD & AAC codec support | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
 | 🖥️ **[NVFLASH](https://github.com/WillyBilly06/NVFLASH)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/NVFLASH?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/NVFLASH/stargazers) | Patched NVFlash supporting up to RTX 50 Series GPU BIOS flashing | ![Tool](https://img.shields.io/badge/-Tooling-555555) |
-| 🎼 **[LHDC-V5-Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/LHDC-V5-Decoder?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/LHDC-V5-Decoder/stargazers) | LHDC V5 decoder for ESP32 A2DP integration | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
+| 🎼 **[LHDC-V5-Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/LHDC-V5-Decoder?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/LHDC-V5-Decoder/stargazers) | Reverse-engineered LHDC V5 decoder for ESP32 A2DP integration | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
 | 📱 **[BDK-AUDIO-APP](https://github.com/WillyBilly06/BDK-AUDIO-APP)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/BDK-AUDIO-APP?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/BDK-AUDIO-APP/stargazers) | Android app for ESP32 speaker control — DSP/EQ, codec selection, LED effects, OTA over BLE | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white) |
 | 🎚️ **[ESP32-S31-A2DP-Codecs](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs)** | [![Stars](https://img.shields.io/github/stars/WillyBilly06/ESP32-S31-A2DP-Codecs?style=flat-square&logo=github&label=stars&color=36BCF7&labelColor=2a2e35)](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs/stargazers) | Multi-codec A2DP sink on ESP-IDF v6.1 — LDAC, aptX/HD/LL, LHDC V5, Opus, LC3plus, AAC, SBC — entirely on internal SRAM | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
 
@@ -92,6 +93,7 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 |------|------------|
 | **Bluetooth Audio Firmware** | A2DP sinks on ESP32 with LDAC, aptX/HD/LL, LHDC V5, AAC, Opus, LC3plus & SBC codec support |
 | **Real-Time DSP** | 3-band EQ, bass boost, level meters, SigmaDSP integration, adaptive buffering & packet-loss concealment |
+| **Reverse Engineering** | Reverse-engineered the proprietary LHDC V5 codec into a working decoder running on ESP32 |
 | **Wireless Audio Links** | ESP-NOW audio source/sink pipeline — 48 kHz / 24-bit stereo with clock sync over a PCM5102A DAC |
 | **Android Companion Apps** | Kotlin apps with BLE control for DSP/EQ, codec selection, LED effects & OTA firmware updates |
 
