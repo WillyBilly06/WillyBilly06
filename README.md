@@ -54,8 +54,10 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=WillyBilly06&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WillyBilly06&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&bg_color=00000000" alt="Top Languages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WillyBilly06&theme=tokyonight" width="100%" alt="Profile Details"/>
+
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WillyBilly06&theme=tokyonight" alt="Repos per Language"/>
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WillyBilly06&theme=tokyonight" alt="Most Commit Language"/>
 
 <img src="https://streak-stats.demolab.com?user=WillyBilly06&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
 
@@ -65,30 +67,16 @@ I'm **William**, a Computer Engineering major at **Cal Poly San Luis Obispo** wh
 
 ## 🚀 Featured Projects
 
+| Project | Description | Tech |
+|---------|-------------|------|
+| 🔊 **[esp32-a2dp-sink-with-LDAC-APTX-AAC](https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC)** ⭐ 29 | ESP32 A2DP Bluetooth audio sink with BLE GATT, DSP, level meters, and LDAC support | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
+| 🎵 **[ESP32-A2DP-SINK-WITH-CODECS-UPDATED](https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED)** ⭐ 22 | ESP32 Bluetooth A2DP sink with LDAC, aptX, aptX-HD & AAC codec support | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
+| 🖥️ **[NVFLASH](https://github.com/WillyBilly06/NVFLASH)** ⭐ 21 | Patched NVFlash supporting up to RTX 50 Series GPU BIOS flashing | ![Tool](https://img.shields.io/badge/-Tooling-555555) |
+| 🎼 **[LHDC-V5-Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)** ⭐ 7 | LHDC V5 decoder for ESP32 A2DP integration | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
+| 📱 **[BDK-AUDIO-APP](https://github.com/WillyBilly06/BDK-AUDIO-APP)** ⭐ 6 | Android app for ESP32 speaker control — DSP/EQ, codec selection, LED effects, OTA over BLE | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white) |
+| 🎚️ **[ESP32-S31-A2DP-Codecs](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs)** ⭐ 3 | Multi-codec A2DP sink on ESP-IDF v6.1 — LDAC, aptX/HD/LL, LHDC V5, Opus, LC3plus, AAC, SBC — entirely on internal SRAM | ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white) |
+
 <div align="center">
-
-<a href="https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=esp32-a2dp-sink-with-LDAC-APTX-AAC&theme=tokyonight&hide_border=true&bg_color=00000000" alt="esp32-a2dp-sink-with-LDAC-APTX-AAC"/>
-</a>
-<a href="https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=ESP32-A2DP-SINK-WITH-CODECS-UPDATED&theme=tokyonight&hide_border=true&bg_color=00000000" alt="ESP32-A2DP-SINK-WITH-CODECS-UPDATED"/>
-</a>
-
-<a href="https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=ESP32-S31-A2DP-Codecs&theme=tokyonight&hide_border=true&bg_color=00000000" alt="ESP32-S31-A2DP-Codecs"/>
-</a>
-<a href="https://github.com/WillyBilly06/LHDC-V5-Decoder">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=LHDC-V5-Decoder&theme=tokyonight&hide_border=true&bg_color=00000000" alt="LHDC-V5-Decoder"/>
-</a>
-
-<a href="https://github.com/WillyBilly06/BDK-AUDIO-APP">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=BDK-AUDIO-APP&theme=tokyonight&hide_border=true&bg_color=00000000" alt="BDK-AUDIO-APP"/>
-</a>
-<a href="https://github.com/WillyBilly06/NVFLASH">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=WillyBilly06&repo=NVFLASH&theme=tokyonight&hide_border=true&bg_color=00000000" alt="NVFLASH"/>
-</a>
-
-<br/><br/>
 
 📂 **[View all my repositories →](https://github.com/WillyBilly06?tab=repositories)**
 
