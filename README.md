@@ -96,7 +96,7 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/LHDC-V5-Decoder"><b>LHDC-V5-Decoder</b></a> on <b>2026-07-25</b><br/>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/LHDC-V5-Decoder"><b>LHDC-V5-Decoder</b></a> on <b>2026-08-27</b><br/>
 <i>LHDC V5 Decoder For ESP32's A2DP Integration</i><br/>
 <code>C</code>
 <!--RECENT_REPO:END-->
