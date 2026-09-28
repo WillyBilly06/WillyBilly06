@@ -96,8 +96,8 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/LHDC-V5-Decoder"><b>LHDC-V5-Decoder</b></a> on <b>2026-08-27</b><br/>
-<i>LHDC V5 Decoder For ESP32's A2DP Integration</i><br/>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/KestrelOS"><b>KestrelOS</b></a> on <b>2026-09-28</b><br/>
+<i>Experimental x86-64 operating system with custom UEFI loader, kernel, drivers, userland, and graphical desktop</i><br/>
 <code>C</code>
 <!--RECENT_REPO:END-->
 
