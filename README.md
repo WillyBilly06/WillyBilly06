@@ -96,9 +96,9 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/KestrelOS"><b>KestrelOS</b></a> on <b>2026-09-28</b><br/>
-<i>Experimental x86-64 operating system with custom UEFI loader, kernel, drivers, userland, and graphical desktop</i><br/>
-<code>C</code>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/codex-windows-memory-repair"><b>codex-windows-memory-repair</b></a> on <b>2026-10-11</b><br/>
+<i>Unofficial version-locked Windows x64 Codex history-memory repair. Creates a separate local copy; original installed app remains unchanged.</i><br/>
+<code>C#</code>
 <!--RECENT_REPO:END-->
 
 <sub><i>· auto-updates via GitHub Actions ·</i></sub>
