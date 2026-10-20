@@ -1,99 +1,45 @@
-<!-- Theme-aware oscilloscope banner — self-hosted, animated (SMIL). -->
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-dark.svg" alt="William Ho — Embedded Audio · DSP" width="100%">
+  <img src="./assets/banner-dark.svg" alt="William Ho: Embedded Audio and DSP" width="100%">
 </picture>
 
-<sub>
+# Ngoc Viet (William) Ho
 
-[`focus`](#-focus) · [`reverse-engineering`](#-reverse-engineering) · [`stack`](#-stack) · [`projects`](#-featured-projects) · [`activity`](#-activity) · [`contact`](#-contact)
+I study Computer Engineering at Cal Poly, San Luis Obispo, and expect to graduate in June 2029. I work on embedded firmware, wireless audio and low-level systems, mainly in C/C++ on ESP32 hardware.
 
-</sub>
+I am looking for **Summer 2027 internships** in embedded systems, firmware, wireless audio or systems engineering. I am available **June 1 through August 31, 2027**, prefer California or remote opportunities and can relocate independently.
 
-</div>
+[LinkedIn](https://www.linkedin.com/in/ngoc-viet-ho-13a098190/) | [All repositories](https://github.com/WillyBilly06?tab=repositories)
 
-<br/>
+## Engineering Projects
 
-## `~` focus
+### [Bluetooth Speaker Relay](https://github.com/WillyBilly06/bluetooth-speaker-relay)
 
-```console
-$ whoami
-William Ho — Computer Engineering @ Cal Poly San Luis Obispo
+I forward encoded SBC between ESP32 speakers over Bluetooth Classic L2CAP without re-encoding the audio. I implemented source election, Bluetooth clock mapping and presentation timestamps, and tested a two-board relay while the source maintained its A2DP connection to a phone. Acoustic phase alignment remains unverified.
 
-$ cat focus.txt
-I build firmware that makes hardware play hi-res sound —
-multi-codec Bluetooth audio, real-time DSP, and the occasional
-reverse-engineered codec running bare-metal on an ESP32.
+### [LHDC V5 Software Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)
 
-$ ls ~/interests
-hardware/software boundary   low-latency wireless audio   embedded DSP
-```
+I reverse-engineered an LHDC V5 software decoder and integrated it into the ESP32 A2DP audio pipeline. I tested 192 kHz, 24-bit, 1 Mbps playback on an ESP32-WROOM without PSRAM. The linked repository records the decoder implementation and integration work; its published setup instructions reflect specific source snapshots.
 
-- **Now** — multi-codec A2DP firmware for the ESP32 family: LDAC, aptX / HD / LL, LHDC V5, AAC, Opus, LC3plus, SBC
-- **Depth** — real-time DSP: equalizers, bass boost, level meters, clock sync, packet-loss concealment
-- **Reach** — Android companion apps (Kotlin / Flutter) that drive it all over BLE — EQ, codec selection, OTA, live visualization
-- **Learning** — ESP-IDF internals, FreeRTOS scheduling, and squeezing hi-res codecs onto internal SRAM
+### [OpenALS Classroom Audio](https://github.com/WillyBilly06/openals-classroom-audio)
 
-<br/>
+I developed audio firmware and a Flutter interface for a classroom listening prototype in the original `datalooper/openals` collaboration. The project uses ESP32 hardware, encrypted ESP-NOW audio and authenticated UDP transport, with room-selection and volume controls. I investigated line-in noise by revising grounding and power paths, then checked the result by listening and with an oscilloscope. Campus deployment and complete mobile audio playback remain in progress.
 
-## `>` reverse-engineering
+### [KestrelOS](https://github.com/WillyBilly06/KestrelOS)
 
-> ### [`LHDC-V5-Decoder`](https://github.com/WillyBilly06/LHDC-V5-Decoder)
-> I reverse-engineered the proprietary **LHDC V5** hi-res Bluetooth codec — digging through binaries until it
-> became a working decoder that runs on an ESP32, wired straight into the A2DP audio pipeline.
-> A microcontroller playing hi-res audio nobody documented. 🎧
+I am developing an experimental x86-64 operating system with a custom UEFI loader, kernel, drivers and C userland. I demonstrated its graphical desktop in a virtual machine. Hardware and application compatibility support remain under development.
 
-<br/>
+## Tools and Other Work
 
-## `#` stack
+- **Languages:** C, C++, Kotlin and Dart.
+- **Embedded and wireless:** ESP-IDF, FreeRTOS, Bluetooth A2DP, L2CAP, BLE GATT, ESP-NOW and I2S audio.
+- **Development:** Git, CMake, Flutter, signal-path debugging and oscilloscope measurements.
+- [Multi-codec A2DP firmware](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs) and [Android speaker controls](https://github.com/WillyBilly06/BDK-AUDIO-APP).
+- [Codex Windows memory repair](https://github.com/WillyBilly06/codex-windows-memory-repair): an unofficial repair for one specific app version, with a separate local copy.
 
-<!-- Datasheet-style spec sheet instead of a badge wall — reads like the hardware it describes. -->
-```text
-Languages    C  ·  C++  ·  Kotlin  ·  Dart
-Embedded     ESP-IDF  ·  FreeRTOS  ·  Arduino  ·  CMake
-Wireless     Bluetooth A2DP / BLE GATT  ·  ESP-NOW
-Codecs       LDAC · aptX HD/LL · LHDC V5 · LC3plus · Opus · AAC · SBC
-DSP          3-band EQ · Bass Boost · Level Meters · PLC · Clock Sync · Adaptive Buffering
-Mobile       Android (Kotlin)  ·  Flutter
-Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
-```
-
-<br/>
-
-## `*` featured projects
-
-| Project | Stars | What it is |
-|---|---|---|
-| 🎚️ **[ESP32-S31-A2DP-Codecs](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs)** | [![](https://img.shields.io/github/stars/WillyBilly06/ESP32-S31-A2DP-Codecs?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/ESP32-S31-A2DP-Codecs/stargazers) | Multi-codec A2DP sink on ESP-IDF v6.1 — LDAC, aptX/HD/LL, LHDC V5, Opus, LC3plus, AAC, SBC — all on internal SRAM |
-| 🔊 **[esp32-a2dp-sink-with-LDAC-APTX-AAC](https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC)** | [![](https://img.shields.io/github/stars/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/esp32-a2dp-sink-with-LDAC-APTX-AAC/stargazers) | A2DP audio sink with BLE GATT control, DSP, level meters and LDAC |
-| 🎵 **[ESP32-A2DP-SINK-WITH-CODECS-UPDATED](https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED)** | [![](https://img.shields.io/github/stars/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED/stargazers) | A2DP sink with LDAC, aptX, aptX-HD & AAC codec support |
-| 🎼 **[LHDC-V5-Decoder](https://github.com/WillyBilly06/LHDC-V5-Decoder)** | [![](https://img.shields.io/github/stars/WillyBilly06/LHDC-V5-Decoder?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/LHDC-V5-Decoder/stargazers) | Reverse-engineered LHDC V5 decoder, integrated into the ESP32 A2DP pipeline |
-| 📱 **[BDK-AUDIO-APP](https://github.com/WillyBilly06/BDK-AUDIO-APP)** | [![](https://img.shields.io/github/stars/WillyBilly06/BDK-AUDIO-APP?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/BDK-AUDIO-APP/stargazers) | Android control app — DSP/EQ, codec selection, LED effects, OTA over BLE |
-| 🖥️ **[NVFLASH](https://github.com/WillyBilly06/NVFLASH)** | [![](https://img.shields.io/github/stars/WillyBilly06/NVFLASH?style=flat-square&logo=github&label=%20&color=36BCF7&labelColor=1c2128)](https://github.com/WillyBilly06/NVFLASH/stargazers) | Patched NVFlash supporting RTX 50-series GPU BIOS flashing |
-
-<div align="center">
-
-**[· browse all repositories ·](https://github.com/WillyBilly06?tab=repositories)**
-
-</div>
-
-<br/>
-
-## `~` activity
-
-<div align="center">
-
-<!-- github-profile-summary-cards is a self-hosted-per-request generator that stays reliable
-     where the shared github-readme-stats instance gets rate-limited. tokyonight ≈ the cyan banner. -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WillyBilly06&theme=tokyonight" width="100%" alt="Profile summary"/>
-
-<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WillyBilly06&theme=tokyonight" alt="Repos per language"/>
-<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WillyBilly06&theme=tokyonight" alt="Most commit language"/>
-
-<br/><br/>
+<details>
+<summary>Recent repository activity</summary>
 
 <!--RECENT_REPO:START-->
 🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/codex-windows-memory-repair"><b>codex-windows-memory-repair</b></a> on <b>2026-10-11</b><br/>
@@ -101,28 +47,4 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <code>C#</code>
 <!--RECENT_REPO:END-->
 
-<sub><i>· auto-updates via GitHub Actions ·</i></sub>
-
-</div>
-
-<br/>
-
-## `@` contact
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-William_Ho-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1c2128)](https://www.linkedin.com/in/ngoc-viet-ho-13a098190/)
-[![GitHub](https://img.shields.io/badge/GitHub-WillyBilly06-181717?style=flat-square&logo=github&logoColor=white&labelColor=1c2128)](https://github.com/WillyBilly06)
-<!-- Uncomment to publish your email:
-[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=1c2128)](mailto:YOUR_EMAIL)
--->
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=WillyBilly06&style=flat-square&color=36BCF7&label=profile+views" alt="Profile views"/>
-
-<br/><br/>
-
-<sub><code>$ echo "building things that make sound 🔊"</code></sub>
-
-</div>
+</details>
