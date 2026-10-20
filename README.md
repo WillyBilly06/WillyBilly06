@@ -42,9 +42,9 @@ I am developing an experimental x86-64 operating system with a custom UEFI loade
 <summary>Recent repository activity</summary>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/shared_app"><b>shared_app</b></a> on <b>2026-10-20</b><br/>
-<i>No description yet</i><br/>
-<code>Kotlin</code>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/BDK-AUDIO-APP"><b>BDK-AUDIO-APP</b></a> on <b>2026-10-20</b><br/>
+<i>Flutter companion for BDK ESP32 Bluetooth speakers. Visual EQ presets, 22 LED effects, BLE controls and detailed Android codec preferences. Android-tested development preview; desktop and Apple support in progress.</i><br/>
+<code>Dart</code>
 <!--RECENT_REPO:END-->
 
 </details>
