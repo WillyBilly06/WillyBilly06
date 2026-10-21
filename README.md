@@ -96,9 +96,9 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/codex-windows-memory-repair"><b>codex-windows-memory-repair</b></a> on <b>2026-10-11</b><br/>
-<i>Unofficial version-locked Windows x64 Codex history-memory repair. Creates a separate local copy; original installed app remains unchanged.</i><br/>
-<code>C#</code>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/BDK-AUDIO-APP"><b>BDK-AUDIO-APP</b></a> on <b>2026-10-20</b><br/>
+<i>Flutter companion for BDK ESP32 Bluetooth speakers. Visual EQ presets, 22 LED effects, BLE controls and detailed Android codec preferences. Android-tested development preview; desktop and Apple support in progress.</i><br/>
+<code>Dart</code>
 <!--RECENT_REPO:END-->
 
 <sub><i>· auto-updates via GitHub Actions ·</i></sub>
