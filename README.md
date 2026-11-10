@@ -96,8 +96,8 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/ESP32-A2DP-SINK-WITH-CODECS-UPDATED"><b>ESP32-A2DP-SINK-WITH-CODECS-UPDATED</b></a> on <b>2026-11-09</b><br/>
-<i>ESP32 Bluetooth A2DP Sink with LDAC, aptX, aptX-HD, AAC codec support.</i><br/>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/samsung-ssc-encoder"><b>samsung-ssc-encoder</b></a> on <b>2026-11-10</b><br/>
+<i>Open-source encoder for Samsung Scalable Codec / Samsung Seamless Codec (SSC): all modes (44.1/48 kHz, HiFi 48 kHz/24-bit, UHQ 96 kHz) and all 14 bitrates, bitstream-checked against Samsung's encoder.</i><br/>
 <code>C</code>
 <!--RECENT_REPO:END-->
 
