@@ -96,9 +96,9 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/esp32-hifi-a2dp-sink"><b>esp32-hifi-a2dp-sink</b></a> on <b>2026-11-10</b><br/>
-<i>ESP32 hi-res Bluetooth speaker firmware: A2DP sink + AVRCP with LDAC, LHDC V5 (192 kHz/24-bit), aptX, aptX HD, AAC, SBC, Opus and Samsung SSC decoders. Own BT host stack, ESP-IDF 6.1.</i><br/>
-<code>C</code>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/ESP32-WiFi-Music-Party"><b>ESP32-WiFi-Music-Party</b></a> on <b>2026-11-19</b><br/>
+<i>JBL PartyBoost / Auracast-style speaker party on plain ESP32 boards: BTstack A2DP sink, raw Wi-Fi broadcast on one master timeline, integer DSP, BLE control and a Flutter app</i><br/>
+<code>Python</code>
 <!--RECENT_REPO:END-->
 
 <sub><i>· auto-updates via GitHub Actions ·</i></sub>
