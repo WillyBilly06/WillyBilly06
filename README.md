@@ -97,7 +97,7 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 
 <!--RECENT_REPO:START-->
 🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/ESP32-WiFi-Music-Party"><b>ESP32-WiFi-Music-Party</b></a> on <b>2026-11-20</b><br/>
-<i>JBL PartyBoost / Auracast-style speaker party on plain ESP32 boards: BTstack A2DP sink, raw Wi-Fi broadcast on one master timeline, integer DSP, BLE control and a Flutter app</i><br/>
+<i>Audio broadcast audio speaker party on plain ESP32 boards: BTstack A2DP sink, raw Wi-Fi broadcast on one master timeline, integer DSP, BLE control and a Flutter app</i><br/>
 <code>Python</code>
 <!--RECENT_REPO:END-->
 
