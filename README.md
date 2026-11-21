@@ -96,9 +96,9 @@ Tooling      Git  ·  Android Studio  ·  Logic / Signal Analysis
 <br/><br/>
 
 <!--RECENT_REPO:START-->
-🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/ESP32-WiFi-Music-Party"><b>ESP32-WiFi-Music-Party</b></a> on <b>2026-11-20</b><br/>
-<i>Audio broadcast audio speaker party on plain ESP32 boards: BTstack A2DP sink, raw Wi-Fi broadcast on one master timeline, integer DSP, BLE control and a Flutter app</i><br/>
-<code>Python</code>
+🛠️ Most recently pushed to <a href="https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio"><b>Arduino-GIGA-Bluetooth-Audio</b></a> on <b>2026-11-21</b><br/>
+<i>Custom Bluetooth Classic A2DP and BLE GATT library for Arduino GIGA R1 WiFi: PCM5102A I2S, STM32H747 ARM codec ports and lazy memory allocation. In active development.</i><br/>
+<code>C++</code>
 <!--RECENT_REPO:END-->
 
 <sub><i>· auto-updates via GitHub Actions ·</i></sub>
